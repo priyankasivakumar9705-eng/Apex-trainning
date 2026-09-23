@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS bank;
+USE bank;
+CREATE TABLE account (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50),
+    balance FLOAT
+);
+USE bank;
+SELECT * FROM account;
